@@ -1,0 +1,14 @@
+{
+  "name": "http-using-promisse",
+  "version": "1.0.0",
+  "description": "working on http using promise",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "shubham@k",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.6.2"
+  }
+}

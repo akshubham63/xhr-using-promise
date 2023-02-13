@@ -1,0 +1,26 @@
+    // npm full form node package manager
+
+1. command 'npm init'  >> it can be used to set up a new or existing npm package.
+    // after entering this command in the terminal some question will be asked 
+        1. package name (i.e name of the folder here http using promise)
+        2.version (i.e version of the project here it will be 1.0.0)
+        3.description (it is optional to put description for your work)
+        4.entry point: index.js (it means the starting which file should get execute by default it set on html file therefore it is optional)
+        5.test command:
+        6.git repository: 
+        7. keywords:
+        8. author: 
+        9. license: 
+    // after all this step completed new file created that is package.json this file will take care of all the things we need from outside.
+
+    // for ex. we want to use the bootstrap in our project so we will put command 'npm i bootstrap@4' here 'i' is short form of install. After completion of the processing the new folder will be created node_modules/bootstrap.
+
+    // we have to link the css file in head tag path: "./node_modules/bootstrap/dist/css/bootstrap.min.css"
+
+2.To create the local host (don't run this command in powershell their is problem while creating the server)
+    i.search json server github on google
+    ii. we need to put command in terminal i.e 'npm i -g json-server' so here 'g' means globally.
+
+    iii.after the completion of the above command put command 'json-server -w db.json' (w means watch sort form) then local host will be created. This will create the db.json file in that file all data will be saved locally in that file in stringify format.
+
+    iv. always we need to run 'json-server -w db.json' when we freshly open the file.
